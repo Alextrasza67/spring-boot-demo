@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.github.mapper
+
+logging:
+  level:
+    root: error
+    com.github.mapper: trace

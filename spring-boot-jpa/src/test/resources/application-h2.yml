@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    platform: H2
+    schema: classpath:H2_TYPE.sql
+    data: classpath:init.sql
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
